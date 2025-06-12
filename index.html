@@ -1,76 +1,72 @@
+<!--//#include stdio.hみたいなもの-->
 <!DOCTYPE html>
 <html lang="ja">
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+    <head> <!--//ページの上方を入れる
+        //文字を表示させるルール-->
+        <meta charset="utf-8" />
+        <!--//モバイルなどに最適に表示させる-->
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+        <!--//タイトルの表示-->
+        <title>浜松学生献血推進委員会｜静岡大学と聖隷クリストファー大学が中心となったボランティア団体</title>
+        <!-- SEO対策用メタタグ -->
+        <meta name="description" content="浜松学生献血推進委員会（浜松学推）は、静岡大学や聖隷クリストファー大学の学生が中心となって、献血活動を推進しています。">
+        <meta name="keywords" content="浜松,献血,学生,ボランティア,静岡大学,クリストファー大学,サマー献血,クリスマス献血">
+        <meta name="author" content="浜松学生献血推進委員会">
+        <!-- OGP (SNS対策) -->
+        <meta property="og:title" content="浜松学生献血推進委員会｜献血ボランティア活動">
+        <meta property="og:description" content="浜松の大学生が中心となって献血イベントを運営。静岡・浜松地域での活動を紹介しています。">
+        <meta property="og:image" content="https://example.com/ogp.jpg"> <!-- 適切な画像URLに置き換えてください -->
+        <meta property="og:url" content="https://example.com">
+        <meta property="og:type" content="website">
 
-    <!-- SEO基本 -->
-    <title>浜松学生献血推進委員会｜浜松市内の大学生による献血推進活動</title>
-    <meta name="description" content="浜松学生献血推進委員会（浜松学推）は、浜松市の学生による献血推進活動団体です。サマー献血・クリスマス献血などのイベントを通じて献血の大切さを伝えています。">
-    <meta name="keywords" content="浜松, 献血, 学生献血, 献血キャンペーン, 静岡大学, 聖隷クリストファー大学, 学生ボランティア, 学推, 学生団体, 浜松 献血 学生">
-    <link rel="canonical" href="https://example.com/" />
+    <!-- Twitterカード -->
+        <meta name="twitter:card" content="summary_large_image">
 
-    <!-- SNS表示用 -->
-    <meta property="og:title" content="浜松学生献血推進委員会">
-    <meta property="og:description" content="浜松市の学生による献血推進活動。Instagramで活動報告中！">
-    <meta property="og:image" content="https://example.com/LINE_ALBUM_20240810_250612_1.jpg">
-    <meta property="og:url" content="https://example.com/">
-    <meta property="og:type" content="website">
-    <meta name="twitter:card" content="summary_large_image">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+        <link rel="stylesheet" href="./hamaken.css">
 
-    <!-- 構造化データ -->
+    <!-- 構造化データ（JSON-LD） -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "Organization",
       "name": "浜松学生献血推進委員会",
-      "url": "https://example.com/",
-      "logo": "https://example.com/LINE_ALBUM_20240810_250612_1.jpg",
+      "url": "https://example.com",
+      "logo": "https://example.com/logo.png",
       "sameAs": [
-        "https://www.instagram.com/hama_kenketsu/"
+        "https://www.instagram.com/hama_kenketsu/?hl=ja"
       ],
-      "description": "浜松市の大学生による献血推進ボランティア団体。静岡大学と聖隷クリストファー大学の学生が中心となり、献血の大切さを伝える活動を行っています。"
+      "description": "静岡県浜松市の学生による献血推進団体。イベントを通じて献血の大切さを伝える活動を行っています。"
     }
     </script>
-
-    <!-- CSSなど -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-    <link rel="stylesheet" href="./hamaken.css">
-</head>
-<body>
-
-    <h1>浜松学生献血推進委員会</h1>
-
-    <img src="LINE_ALBUM_20240810_250612_1.jpg" alt="浜松学生献血推進委員会の活動風景">
-
-    <h2>浜松学生献血推進委員会（浜松学推）とは</h2>
-    <p>
-        浜松学生献血推進委員会（通称：浜松学推）は、<strong>浜松市の学生が主体となった献血推進ボランティア団体</strong>です。<br>
-        <strong>静岡大学浜松キャンパス</strong>や<strong>聖隷クリストファー大学</strong>の学生が中心になり、<strong>献血の大切さ</strong>を伝えるために活動しています。
-    </p>
-
-    <h3>主な活動</h3>
-    <ul>
-        <li>スプリング献血キャンペーン(3月)</li>
-        <li>サマー献血キャンペーン（8月）</li>
-        <li>ハロウィン献血キャンペーン(10月)</li>
-        <li>クリスマス献血キャンペーン（12月）</li>
-        <li>Instagramでの情報発信</li>
-    </ul>
-
-    <img src="LINE_ALBUM_20241215_250108_3.jpg" alt="クリスマス献血キャンペーンの様子">
-
-    <h3>活動の様子はInstagramへ</h3>
-    <p>
-        <a href="https://www.instagram.com/hama_kenketsu/?hl=ja" target="_blank" rel="noopener noreferrer">
-            <i class="fa-brands fa-instagram"></i> 浜松学推の活動模様はこちら（Instagram）
-        </a><br>
-        この活動に興味がある方は、InstagramからDMをお送りください!!
-    </p>
-
-    <img src="LINE_ALBUM_2025316_250612_1.jpg" alt="スプリング献血キャンペーンの様子">
-
-    <p><strong>皆様の献血協力を心よりお待ちしております!!</strong></p>
-
-</body>
+        
+    </head>
+    <!--//ページの表示内容を書く-->
+    <body>
+        <!--//見出し-->
+        <h1>浜松学生献血推進委員会</h1>
+        <img src="LINE_ALBUM_20240810_250612_1.jpg" alt="サマー献血キャンペーン(8月)">
+        <!--//<p>は段落</p>-->
+        <p id="warning">
+            <strong>浜松学生献血推進委員会(浜松学推)とは</strong><br>
+            聖隷クリストファー大学と静岡大学浜松キャンパスの学生が中心となり、<br>
+            夏の「サマー献血キャンペーン」や冬の「クリスマス献血キャンペーン」などのイベントを通して<br>
+            自身が献血について理解を深めるだけでなく、会場に訪れた方にも献血の大切さを伝えるために活動を行っています!!<br>
+            <img src="LINE_ALBUM_20241215_250108_3.jpg" alt="クリスマス献血キャンペーン(12月)">
+           <!--//<a>はリンクを表す-->
+            <a href="https://www.instagram.com/hama_kenketsu/?hl=ja" target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-instagram" style="margin-right: 8px;"></i>
+                浜松学推の活動模様はこちらから(Instagram)
+            </a><br>
+            この活動に興味のある方は上のリンク先の公式InstagramからDMをお願いします!!
+            <img src="LINE_ALBUM_2025316_250612_1.jpg" alt="スプリング献血キャンペーン(3月)">
+            <strong>皆様のご協力お待ちしております!!</strong>
+            
+            
+        </p>
+    
+    <footer>
+      <p style="text-align: center; font-size: 0.8em; color: #888;">&copy; 2025 浜松学生献血推進委員会</p>
+    </footer>
+    </body>
 </html>
